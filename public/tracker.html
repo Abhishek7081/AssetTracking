@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tracker</title>
+</head>
+<body>
+	<div class="container">
+		<div>
+		    <label for="">Name</label>
+		    <input type="text" name="fname" id="fname" onkeyup=handleInput(this)>
+		</div>
+		<div>
+		    <button onclick=submitData()>Submit</button>
+		</div>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/js/tracker.js"></script>
+</body>
+</html>
